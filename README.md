@@ -36,3 +36,10 @@ The graphical user interface lets you type messages and see replies in a chat wi
 ---
 
 Chatty is designed to demonstrate how AI and natural language processing can create interactive, helpful assistants that understand and respond to human language.
+
+# Screenshots
+<img width="407" alt="Image" src="https://github.com/user-attachments/assets/da2a238d-4727-48f8-91db-f301982063f3" />
+<img width="433" alt="Image" src="https://github.com/user-attachments/assets/5cfc53b2-d4f6-478e-bc9d-79d455c0f8df" />
+<img width="428" alt="Image" src="https://github.com/user-attachments/assets/59fc2700-4f9c-43cd-9ca0-8a5cda8eaa63" />
+
+
