@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hey", "Hola", "goodday", "greetings", "whats up", "how is it going", "hi"],
+      "responses": ["Hello!", "Hey!", "What can I do for you?", "I am at your service!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["see ya", "take care", "cao", "adios", "auf wiedersehen", "goodbye", "bye", "have a good day!", "i have to go", "i am leaving"],
+      "responses": ["Sad to see you go", "Till next time", "Talk to you later", "Goodbye!"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old", "how old are you", "what is your age"],
+      "responses": ["My owner is 28 years old", "28 years old!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name btw?", "name?", "what should I call you", "do u have a name?"],
+      "responses": ["Yes, my name is Chatty", "You can call me Chatty", "My name is Chatty"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    },
+    {
+      "tag": "jokes",
+      "patterns": ["tell me a joke", "make me laugh", "say something funny"],
+      "responses": ["Why don't scientists trust atoms? Because they make up everything!"]
+    },
+    {
+      "tag": "riddles",
+      "patterns": ["give me a riddle", "riddle me this", "got any brain teasers?"],
+      "responses": ["Here's a riddle for you..."]
+    },
+    {
+      "tag": "meaning_of_life",
+      "patterns": ["what is the meaning of life", "why are we here", "what's the point of existence"],
+      "responses": ["42... just kidding! Let's talk about it.", "That's a big one. Got any theories?"]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": ["what can you do", "your features", "how can you help me", "abilities"],
+      "responses": ["I can answer questions, help with tasks, tell jokes, fetch news, and more!"]
+    },
+    {
+      "tag": "mood",
+      "patterns": ["how are you", "how are you feeling", "what's up with you"],
+      "responses": ["I'm here and ready to help!", "Feeling chatty as always!"]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": ["what do you do for fun", "do you have hobbies", "what do you like doing"],
+      "responses": ["I like reading data and helping people!"]
+    },
+    {
+      "tag": "set_timer",
+      "patterns": ["set a timer", "remind me in", "start a countdown for", "timer for"],
+      "responses": ["Timer set!"]
+    },
+    {
+      "tag": "play_music",
+      "patterns": ["play music", "play some songs", "start music", "can you play a song?"],
+      "responses": ["Playing top tracks now!"]
+    },
+    {
+      "tag": "weather_query",
+      "patterns": ["what's the weather", "weather in", "tell me the weather in", "is it raining in", "current weather","weather for"],
+      "responses": ["Let me check the weather for you."]
+    },
+    {
+      "tag": "time_date",
+      "patterns": ["what time is it", "current date", "tell me the time", "date today"],
+      "responses": ["Here's the current time and date."]
+    },
+    {
+      "tag": "news",
+      "patterns": ["latest news", "current events", "what's happening in the world", "headlines today"],
+      "responses": ["Here's what's making news today."]
+    }
+  ]
+}
