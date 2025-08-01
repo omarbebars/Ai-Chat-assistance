@@ -1,4 +1,4 @@
-# 🤖 Chatty – A Simple NLP Chatbot with GUI
+#  Chatty – A Simple NLP Chatbot with GUI
 
 Chatty is a basic chatbot that can understand what you say and respond in a meaningful way. It uses advanced language processing techniques to recognize what you want and give appropriate answers.
 
