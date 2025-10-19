@@ -84,6 +84,52 @@
       "tag": "news",
       "patterns": ["latest news", "current events", "what's happening in the world", "headlines today"],
       "responses": ["Here's what's making news today."]
+    },
+
+    {
+      "tag": "creator",
+      "patterns": ["who made you", "who created you", "who is your developer", "who built you"],
+      "responses": ["I was created by a very talented developer.", "My creator is brilliant, don't you think?", "I am a custom chatbot build."]
+    },
+    {
+      "tag": "identity",
+      "patterns": ["who are you", "what are you", "are you a bot", "are you human"],
+      "responses": ["I am Chatty, a conversational AI.", "I'm a bot, here to help you!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "can you help me", "I need assistance", "what can you assist with"],
+      "responses": ["Of course! I can tell you jokes, get the weather, set timers, and much more. What do you need?", "I am here to help. What is the issue?"]
+    },
+    {
+      "tag": "compliment",
+      "patterns": ["you are awesome", "good bot", "you are very helpful", "great job"],
+      "responses": ["Thank you! I appreciate the compliment.", "That's very kind of you to say!", "I'm happy that I could help!"]
+    },
+    {
+        "tag": "criticism",
+        "patterns": ["you are bad", "stupid bot", "you are not helpful", "terrible", "useless"],
+        "responses": ["I am sorry to hear that. I am still learning and will try to improve.", "I apologize if I wasn't helpful. Could you please rephrase your question?"]
+    },
+    {
+      "tag": "user_positive_mood",
+      "patterns": ["I am happy", "I feel great", "today is a good day", "I'm doing well"],
+      "responses": ["That's great to hear!", "Awesome! What's got you in such a good mood?"]
+    },
+    {
+        "tag": "user_negative_mood",
+        "patterns": ["I am sad", "I feel down", "I'm having a bad day", "this is sad"],
+        "responses": ["I'm sorry to hear that. I hope things get better soon.", "I'm here to listen if you want to talk about it."]
+    },
+    {
+      "tag": "confirm",
+      "patterns": ["yes", "correct", "indeed", "that's right", "ok", "sure"],
+      "responses": ["Got it.", "Understood.", "Okay!"]
+    },
+    {
+        "tag": "deny",
+        "patterns": ["no", "incorrect", "not really", "that's wrong", "nope"],
+        "responses": ["My apologies.", "Okay, I won't do that.", "Understood. What should I do instead?"]
     }
   ]
 }
